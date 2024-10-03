@@ -1,0 +1,7 @@
+// We import 0-classroom
+import ClassRoom from './0-classroom';
+
+// Make classroom
+export default function initializeRooms() {
+  return [19, 20, 34].map((value) => new ClassRoom(value));
+}
