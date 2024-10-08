@@ -1,5 +1,5 @@
 // returns a string of all set values
-export default function cleanSet(xset, xStartString) {
+export default function cleanSet(xSet, xStartString) {
   if (!xSet || !xStartString || !(xSet instanceof Set) || typeof xStartString !== 'string') {
     return '';
   }
