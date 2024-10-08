@@ -1,4 +1,4 @@
-// This is a function that returns and array of objects
+// This is a function that returns and array of the objects
 export default function getListStudents() {
   return [
     { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
