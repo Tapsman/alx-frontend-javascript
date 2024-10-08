@@ -4,7 +4,7 @@ export default function cleanSet(xset, xStartString) {
     return '';
   }
   return Array.from(xSet)
-    .filter((element) => element && lement.startsWith(xStartString))
+    .filter((element) => element && element.startsWith(xStartString))
     .map((element) => element.replace(xStartString, ''))
     .join('-');
 }
